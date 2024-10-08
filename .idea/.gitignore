@@ -1,8 +1,105 @@
-# Default ignored files
+# ---- General ----
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- Python/Django ----
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# Local development environment
+/local_settings.py
+settings_local.py
+
+# PyCharm IDE
+.idea/
+
+# Migrations
+*/migrations/*
+
+# ---- Node.js / React ----
+# Node modules
+node_modules/
+.pnpm-debug.log
+package-lock.json
+yarn.lock
+.pnp/
+.pnp.js
+
+# Build files
+build/
+dist/
+.eslintcache
+.cache/
+.vscode/
+
+# Coverage directories
+coverage/
+*.cover
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.swm
+
+# Lockfiles
+package-lock.json
+yarn.lock
+
+# Tailwind build files
+.tailwind-output/
+
+# ---- OS generated files ----
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on certain editors
+.sass-cache/
+*.sass-cache
+.vscode/
+
+# ---- Virtual Environments ----
+# Python virtualenv
+venv/
+virtualenv/
+
+# ---- Test-related files ----
+/test-output/
+/tests/__pycache__/
+
+# ---- Others ----
+# Folder storing editor files
 /shelf/
 /workspace.xml
-# Editor-based HTTP Client requests
+
+# HTTP client requests
 /httpRequests/
-# Datasource local storage ignored files
+
+# Datasource local storage
 /dataSources/
 /dataSources.local.xml
